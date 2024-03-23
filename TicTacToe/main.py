@@ -29,7 +29,7 @@ while playing:
             turn+=1
             map[int(userVal)]=check_turn(turn)
             create_board(map)
-            os.system('cls')
+            os.system('cls' if userVal=" "  else "Something went wrong" )
             if(win_check(map)):
                 complete=True
                 playing=False
