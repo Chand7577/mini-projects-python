@@ -134,7 +134,7 @@ while True:
 
     #Allows player to enter the letter
     guess=getGuess(correctLetters+missedLetters)
-    print(guess)
+    
     if guess in secretWord:
         
         correctLetters=correctLetters+guess
